@@ -33,6 +33,41 @@ used by Mozilla's [Rust language](http://www.rust-lang.org/),
  * Threading and synchronization primitives
 
 
+
+# libuv
+
+libuv is a multi-platform support library with a focus on asynchronous I/O. It
+was primarily developed for use by [Node.js](http://nodejs.org), but it's also
+used by Mozilla's [Rust language](http://www.rust-lang.org/),
+[Luvit](http://luvit.io/), [Julia](http://julialang.org/),
+[pyuv](https://crate.io/packages/pyuv/), and others.
+
+## Feature highlights
+
+ * Full-featured event loop backed by epoll, kqueue, IOCP, event ports.
+
+ * Asynchronous TCP and UDP sockets
+
+ * Asynchronous DNS resolution
+
+ * Asynchronous file and file system operations
+
+ * File system events
+
+ * ANSI escape code controlled TTY
+
+ * IPC with socket sharing, using Unix domain sockets or named pipes (Windows)
+
+ * Child processes
+
+ * Thread pool
+
+ * Signal handling
+
+ * High resolution clock
+
+ * Threading and synchronization primitives
+
 ## Community
 
  * [Mailing list](http://groups.google.com/group/libuv)
